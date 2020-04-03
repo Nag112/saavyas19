@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica');
+@import url('https://fonts.googleapis.com/css?family=Baumans');
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(102, 100, 100); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7e7b7b; 
+  }
+
+html, body
+{
+	padding: 0;
+	margin: 0;
+	
+	
+}
+body
+{
+	background-color: #fff;
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 14px;
+	line-height: 22px;
+	color: #666;
+	position: relative;
+	-webkit-text-size-adjust: none;
+	background-color:black ;
+}
+#particles-js
+{ 
+	position:fixed; height:100%; width: 100%; background-repeat: no-repeat;  background-position: 50% 50%; background-size: cover; 
+}	
+body *
+{
+	text-shadow: none;
+}
+h1, h2, h3, h4, h5, h6
+{
+	line-height: 1;
+	font-weight: bold;
+	margin: 20px 0 10px 0;
+}
+h1, h2, h3
+{
+	font-size: 18px;
+}
+h4, h5, h6
+{
+	font-size: 16px;
+}
+p
+{
+	margin: 0 0 10px 0;
+}
+a, a:link, a:active, a:visited, a:hover
+{
+	color: inherit;
+	text-decoration: underline;
+}
+
+nav:not(.mm-menu)
+{
+	display: none;
+}
+
+.header,
+.content,
+.footer
+{
+	text-align: center;
+}
+.header,
+.footer
+{
+	background: #777;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 40px;
+
+
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	width: 100%;
+	height: 40px;
+	padding: 0 50px;
+}
+.header.fixed
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.footer.fixed
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.header a
+{
+	display: block;
+	width: 28px;
+	height: 18px;
+	padding: 11px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.header a:before,
+.header a:after
+{
+	content: '';
+	display: block;
+	background: #fff;
+	height: 2px;
+}
+.header a span
+{
+	background: #fff;
+	display: block;
+	height: 2px;
+	margin: 6px 0;
+}
+.content
+{
+	padding: 150px 50px 50px 50px;
+}
+span.fa
+{
+	font-size: 1.4em;
+}
+li a
+{
+	font-family:Caudex;
+	font-size:1.4em;
+}
+li a i.fa
+{
+	font-size:1em;
+	margin-right:5px;
+}
+span
+{
+	font-family: Aclonica;
+}
+#page
+{
+	overflow: hidden;
+}
+
+#logo,#dates
+{
+	color:rgb(194, 193, 193);
+	width:80%;
+	height:75%;
+	margin:auto;
+	margin-top:0px;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+#logo h1,#dates h2
+{
+	font-family: Aclonica;
+	font-size: 1.7em;
+	display: inline;
+	vertical-align: middle;
+}
+#logo h2
+{
+	font-family:'Ravi prakash';
+	margin: 0 auto;
+	font-size: 1.2em;
+}
+img#nitlogo
+{
+	width:45px;
+	height:45px;
+	vertical-align: middle;
+	display: inline;
+}
+video.main
+{	
+	margin-top:-10px;
+	width:100%;
+	position: relative;
+	bottom:10px;
+	
+}
+header a
+{
+	color: aliceblue !important;
+}
+marquee
+{
+	font-family:caudex;
+}
+video.main2
+{
+		margin-top: 0px;
+		position: relative;
+		bottom:0px;
+}
+@media screen and (max-width:500px)
+{	
+	#logo
+	{		
+		padding-top:50px;
+	}
+	#logo h1 
+	{
+		font-size: 0.9em;
+		display: block;
+	}
+	#logo h2 
+	{
+		font-size: 0.7em;
+	}
+	video#main
+	{	position: relative;
+		bottom:-10px;
+		margin:30px auto 10px auto;
+	}
+	a.cpright
+	{
+		font-size:0.7em; 
+	}
+}
+
+a span.fa
+{
+	color:white;
+	font-size: 1.8em;
+}

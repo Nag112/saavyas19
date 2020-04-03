@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Ravi Prakash");
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(102, 100, 100); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7e7b7b; 
+  }
+
+#particles-js
+{ 
+  position:fixed; height:100%; width: 100%; background-repeat: no-repeat; background-color: black;
+ background-position: 50% 50%; background-size: cover;  z-index: -40000;
+} 
+
+    
+.log{
+    position: absolute;
+    top:5%;
+    left:90%;
+    color:white;
+    text-decoration: none;
+    z-index: 150;
+    font-size:25px;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h1,h4{
+    text-align: center;
+    color: white !important;
+    margin-bottom: 15px;
+    font-family: Caudex !important;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+  50% { background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 0 40px rgb(255, 255, 255); color:#01CBC6; }
+  100% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+  50% { background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 0 40px rgb(255, 255, 255); color:#01CBC6; }
+  100% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+  50% { background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 0 40px rgb(255, 255, 255); color:#01CBC6; }
+  100% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+}
+
+@keyframes glowing {
+  0% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+  50% { background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 0 40px rgb(255, 255, 255); color:#01CBC6; }
+  100% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+}
+
+.stick
+{
+   
+  position: fixed;
+ bottom:20px;
+ right:30px; 
+ z-index: 99;
+}
+.stick a
+{
+  color:inherit;
+}
+.stick a:hover
+{
+  color: inherit;
+}
+.stick button.btn
+{
+    padding:8px 40px;
+    border-radius: 20px;
+   font-family: Caudex;
+   border-width: 3px;
+   /* -webkit-animation: glowing 1500ms infinite;
+   -moz-animation: glowing 1500ms infinite;
+   -o-animation: glowing 1500ms infinite; */
+   animation: glowing 1500ms infinite;
+}
+h1
+{
+  font-size: 2.4em !important;
+}
+h5
+{
+  color:black !important;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Caudex !important;
+  text-transform: uppercase;
+}
+.card {
+    border: none;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+a
+{
+    color:wheat;
+    font-family: 'Ravi Prakash';
+    margin-bottom:30px !important;
+}
+.card-title
+{
+  font-size:1.3em;
+  text-decoration: none;
+  color: black !important;
+}
+@media only screen and (max-width: 452px) 
+{
+    .log
+    {
+        left:80%;
+        font-size:15px !important;
+    }
+  }

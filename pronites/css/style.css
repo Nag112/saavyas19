@@ -1,0 +1,276 @@
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #78d5ef;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(102, 100, 100); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7e7b7b; 
+  }
+  #particles-js
+  { 
+    position:fixed; height:100%; width: 100%; background-repeat: no-repeat; background-color: black; background-position: 50% 50%; background-size: cover ; z-index: -10000; 
+  }	
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-family: Caudex;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+@-ms-viewport {
+  width: device-width; }
+
+body {
+  margin: 0;
+  font-family: Caudex;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: left;
+  overflow-x: hidden;
+   }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem; 
+color:white;}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+font-weight: 200;
+color:black;
+}
+.head-title span
+{
+  font-size: 0.5em;
+  color: white !important;
+}
+h1.main-title
+{
+ font-family: 'Ravi Prakash';
+ font-size: 5em !important;
+}
+#timer
+{
+  
+  width:60%;
+  background-color: #2196F3;
+  padding:1.5em ;
+}
+#timer>div
+{
+  text-align: center;
+  border-right: #fff 2px solid;
+}
+#timer .time
+{
+  font-size: 2em;
+  color:white;
+  font-weight:1000;
+}
+div#sec
+{
+  border-right: #fff 0px solid;
+}
+#timer div:last-child 
+{
+  border-right: #fff 0px solid;
+}
+.head
+{
+  height:100vh;
+}
+.ftco-search {
+  position: relative;
+  width: 100%;
+  display: block; }
+  .ftco-search .nav-pills {
+    width: 100%;
+    display: block; }
+    .ftco-search .nav-pills p {
+      margin-bottom: 0; }
+    .ftco-search .nav-pills .nav-link {
+      padding: 2em 1em !important;
+      border-radius: 0;
+      margin-bottom: 0;
+      color: #000000 !important;
+      font-size: 1.2em;
+      font-weight: 700;
+      position: relative;
+      display: inline-block;
+      border: 1px solid transparent;
+      background: #fff;
+      width: 30%;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      border-radius: 0; }
+      .ftco-search .nav-pills .nav-link:after {
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        width: 0;
+        content: '';
+        height: 0;
+        margin: 0 auto;
+        border-style: solid;
+        border-width: 10px 10px 0 10px;
+        border-color: #6b76ff transparent transparent transparent;
+        opacity: 0; }
+      .ftco-search .nav-pills .nav-link span {
+        display: block;
+        font-size: 0.8em }
+    
+      .ftco-search .nav-pills .nav-link:hover {
+        background: #6c71b9;
+        color: #fff !important; }
+      .ftco-search .nav-pills .nav-link.active {
+        color: #fff !important;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        border: 1px solid transparent;
+        background: #6b76ff; }
+        .ftco-search .nav-pills .nav-link.active:after {
+          opacity: 1; }
+        /* @media (max-width: 767.98px) {
+          .ftco-search .nav-pills .nav-link.active:after {
+            opacity: 0; } }
+      @media (max-width: 767.98px) {
+        .ftco-search .nav-pills .nav-link {
+          display: block;
+          margin-bottom: 5px; } } */
+  .ftco-search .tab-content {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    margin-top: 15px; }
+
+.speaker-wrap {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  margin-bottom: 20px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .speaker-wrap .speaker-img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+  .speaker-wrap .text {
+    width: calc(100% - 120px); 
+  text-align: justify;}
+    .speaker-wrap .text h2 {
+      font-size: 24px;
+      font-weight: 700; }
+      .speaker-wrap .text h2 a {
+        color: #000000; }
+    .speaker-wrap .text h3.speaker-name {
+      font-size: 20px; }
+    .speaker-wrap .text .position {
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.4); }
+  .speaker-wrap:hover, .speaker-wrap:focus {
+    -webkit-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07); }
+.img,
+.blog-img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+.title
+{
+  color: aqua !important;
+}
+.title span
+{
+  color: white !important;
+}
+@media screen and (max-width: 480px)
+{.image
+{
+display: none;
+}
+.speaker-wrap .speaker-img 
+{
+  width:60px;
+  height:60px;
+}
+.speaker-wrap .text {
+  width: calc(100% - 60px); }
+
+  .speaker-wrap
+   {
+     padding : 10px;
+  }
+  .head-title .img
+  {
+    display: block;
+  }
+}
+h2>#pbs
+{
+  text-align: left !important;
+}

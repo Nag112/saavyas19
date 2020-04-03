@@ -1,0 +1,69 @@
+body
+{
+    font-family: Caudex;
+    background-color: antiquewhite;
+}
+label
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn-primary
+{
+    margin-top:20px;
+    transition: transform 4s ease-in;
+    background: #0A79DF;
+}
+.btn-primary:hover,.btn-primary:focus 
+{
+    background: #f88;
+  color: #fff;
+    animation: gradient 500ms;
+    border:none;
+    cursor: none !important;
+   
+}
+@keyframes gradient {
+    0% {
+      background: radial-gradient(circle at center, rgba( 255, 125 , 125, 0 ) 0%, #0A79DF 0%, #0A79DF 100%);
+    }
+    25% {
+      background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.3 ) 24%, #0A79DF 25%, #0A79DF 100%);
+    }
+    50% {
+      background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.5 ) 49%, #0A79DF 50%, #0A79DF 100%);
+    }
+    75% {
+      background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.8 ) 74%, #0A79DF 75%, #0A79DF 100%);
+    }
+    100% {
+      color: #ffffff;
+      background: radial-gradient(circle at center, #f88 99%, #0A79DF 100%, #0A79DF 100%);
+    }
+  }
+#p-logo
+{
+    padding:2em auto; 
+}
+.title
+{
+    font-size:2rem;
+}
+.title span
+{
+    font-size:1.6rem;
+}
+
+img#s-logo
+{
+    display: block;
+    margin:auto;
+}
+
+@media screen and (max-width:490px)
+{
+ img#s-logo
+ {
+     display: none;
+ }
+}

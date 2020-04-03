@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+		<link rel="shortcut icon" href=".entertainment/assets/images/saavyas-font.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saavyas'19</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
+</head>
+
+<style>
+html
+{
+    background-color: black;
+}
+h1
+{
+    color: #acd7e5;
+    text-align: center;
+}
+.ent-container
+{   width:95%;
+    margin:10px auto;
+ 
+}
+.ent-event {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+    margin:30px;
+      border: 1px solid #ccc;
+     
+  
+  }
+      .ent-event:hover .flipper,  
+    .ent-event.hover .flipper {
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+      }
+  
+  .ent-event, .front, .back {
+      width: 320px;
+      height: 427px;
+      float:left;
+  }
+  
+  .flipper {
+      -webkit-transition: 0.6s;
+      -webkit-transform-style: preserve-3d;
+  
+      -moz-transition: 0.6s;
+      -moz-transform-style: preserve-3d;
+    
+    -o-transition: 0.6s;
+      -o-transform-style: preserve-3d;
+  
+      transition: 0.6s;
+      transform-style: preserve-3d;
+  
+      position: relative;
+
+  }
+  
+  .front, .back {
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+      backface-visibility: hidden;
+  
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  
+  .front {
+      background: url() 0 0 no-repeat;
+      z-index: 2;
+  }
+  
+  .back {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+  
+      background: #f8f8f8;
+  }
+/*   
+  .front .name {
+      font-size: 2em;
+      display: inline-block;
+      background: rgba(33, 33, 33, 0.9);
+      color: #f8f8f8;
+      font-family: Courier;
+      padding: 5px 10px;
+      border-radius: 5px;
+      bottom: 60px;
+      left: 25%;
+      position: absolute;
+      text-shadow: 0.1em 0.1em 0.05em #333;
+  
+      -webkit-transform: rotate(-20deg);
+      -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+      transform: rotate(-20deg);
+  } */
+  
+  .back-logo {
+      position: absolute;
+      top: 40px;
+      left: 90px;
+      width: 160px;
+      height: 117px;
+      background: url(trophy.png) 0 0 no-repeat;
+  }
+  
+  .back-title {
+      font-weight: bold;
+      color: #00304a;
+      position: absolute;
+      top: 150px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      text-shadow: 0.1em 0.1em 0.05em #acd7e5;
+      font-family: Courier;
+      font-size: 2em;
+  }
+  
+  .back p {
+      position: absolute;
+      bottom: 30px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 0 20px;
+    font-family: arial;
+    line-height: 2em;
+  }
+  
+.ent-event button
+{
+    padding: 12px 36px;
+    border: 2px solid #9a24c1;
+    margin:10px auto;
+   display: block;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 1;
+    color: white;
+    background-color: #9a24c1 ;
+}
+h1
+{
+  color:aquamarine;
+  font:2em;
+  font-family: Caudex;
+}
+</style>
+<body>
+    
+<div class="entertainment">
+    <h1>Entertainment</h1>
+   <div class="ent-container"> 
+<div class="ent-event one" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+              <img src="entertainment/assets/images/ent-1.jpg" alt="">
+            <span class="name">Procricket</span>
+          </div>
+          <div class="back">
+            <div class="back-logo"></div>
+            <div class="back-title">Prize:5000/-</div>
+            <p>One on one cricket competition.<button>Register </button></p>
+
+          </div>
+        </div>
+      </div>
+   
+<div class="ent-event two" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+              <img src="entertainment/assets/images/ent-2.jpg" alt="">
+            <span class="name">Third degree</span>
+          </div>
+          <div class="back">
+            <div class="back-logo"></div>
+            <div class="back-title">prize:5000/-</div>
+            <p>Contestants have to perform impulsive and spunky tasks individually. Difficulty level will increase for every stage.<button>Register </button></p>
+          </div>
+        </div>
+      </div>
+       
+<div class="ent-event three" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+              <img src="entertainment/assets/images/ent-3.jpg" alt="">
+            <span class="name">Chunin's exam</span>
+          </div>
+          <div class="back">
+            <div class="back-logo"></div>
+            <div class="back-title">prize:5000/-</div>
+            <p> Contestants take part in a series of 60-second challenges that use objects that are commonly available around the house. <button>Register</button></p>
+          </div>
+        </div>
+      </div>
+        
+<div class="ent-event" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+              <img src="entertainment/assets/images/ent-4.jpg" alt="">
+            <span class="name">Marauder’s Map</span>
+          </div>
+          <div class="back">
+            <div class="back-logo"></div>
+            <div class="back-title">prize:5000/-</div>
+            <p>A fun game which involves finding decoding a set of clues to reach the treasure.<button>Register </button></p>
+
+          </div>
+        </div>
+      </div> 
+      
+<div class="ent-event" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+                <img src="entertainment/assets/images/ent-5.jpg" alt="">
+            <span class="name">Tug of war</span>
+          </div>
+          <div class="back">
+            <div class="back-logo"></div>
+            <div class="back-title">prize:14000/-</div>
+            <p>A group event wherein teams will pull on a rope until one of the teams succeeds at pulling the majority of the rope over to their side.<button>Register </button></p>
+
+          </div>
+        </div>
+      </div>
+       
+<div class="ent-event" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+                <img src="entertainment/assets/images/ent-6.jpg" alt="">
+            <span class="name">Futsal</span>
+          </div>
+          <div class="back">
+            <div class="back-logo"></div>
+            <div class="back-title">prize:35000/-</div>
+            <p>Mini version of football game with all the rules same as football. <button>Register </button></p>
+
+          </div>
+        </div>
+      </div>
+      
+<div class="ent-event" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+                <img src="entertainment/assets/images/ent-7.jpg" alt="">
+            <span class="name">IPL Auction</span>
+          </div>
+          <div class="back">
+            <div class="back-logo"></div>
+            <div class="back-title">prize:5000/-</div>
+            <p>An event wherein participants auction cricket players in a team of two<button>Register </button></p>
+          </div>
+        </div>
+      </div>     
+      <div class="ent-event" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                    <img src="entertainment/assets/images/ent-8.png" alt="">
+                <span class="name">PC & Mobile games</span>
+              </div>
+              <div class="back">
+                <div class="back-logo"></div>
+                <div class="back-title">prize:5000/-</div>
+                <p>An individual/team event wherein participants compete by playing computer games<button>Register </button></p>
+              </div>
+            </div>
+          </div>  
+</div>
+</div>
+</body>
+</html>

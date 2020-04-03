@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Amaranth");
+@import url("https://fonts.googleapis.com/css?family=Caudex");
+body{ margin:-10px; margin-top:-20px; overflow-x: hidden;}
+#particles-js{ position:fixed;height:120%; width: 105%; background-color: #000000; background-image: url(""); background-repeat: no-repeat;  background-position: 50% 50%; z-index: -2000;} 
+i{
+    position: absolute;
+    top:5%;
+    left:95%;
+    color:white;
+    text-decoration: none;
+    z-index: 150;
+}
+.sub > div
+{
+    margin-left:20px;
+}
+
+#col-1
+{
+    width:42%;
+    float:left;
+    margin: 12% 4%;
+    margin-bottom: 1%;
+    font-size: 16px;
+line-height: 30px;
+   
+}
+
+#col-1 p
+{
+    opacity: 1;
+    font-family: Amaranth;
+    color:#c6eefd;
+    text-align: justify;
+}
+#head-1
+{
+    font-family: 'Caudex';
+    font-size: 28px;
+    text-align: center;
+    color:white;
+}
+.cpright
+{ 
+    font-size: 1.0em;
+    text-align: center;
+    color:violet;
+    font-family: 'Caudex' ;
+    clear:both;
+    position: relative;
+    bottom:10px;
+   
+}
+a{text-decoration: none; color:violet;}
+
+@media only screen and (max-width: 482px) 
+{
+    #col-1
+    {
+        width:90%;
+        margin: 20px 20px;
+    }
+    i
+    {
+        left:90%;
+    }
+    .cpright
+    {
+
+    }
+} 

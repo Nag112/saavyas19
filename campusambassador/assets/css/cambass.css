@@ -1,0 +1,301 @@
+:root
+{
+    --text-color-2:#FFF;
+    --text-color:#FFF;
+    --hover-color:white;
+}
+html, body {
+    height: 100%;
+    
+  }
+	
+body
+{
+    background:url(../images/logo.png) no-repeat top center fixed;
+   background-color:#333945 ;
+   color:white;
+   overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  } 
+
+  .navbar-toggler-icon
+  {
+      color:white !important;
+  }
+.nav-link
+{
+font-size: 1.3rem;
+font-family: 'Caudex';
+color:var(--text-color);
+}
+.nav-link.active
+{
+    font-weight: 1000;
+}
+.title
+{
+    font-size:2.4rem;
+    font-family: 'Ravi Prakash';
+    color:var(--text-color);
+    margin-left: 6rem;
+}
+.bg-custom
+{
+    background-color:  ;
+}
+a
+{
+    text-decoration: none !important;
+}
+#home
+{     
+     width: 100%;
+    height:650px;
+    margin-bottom: 50px;  
+    overflow: hidden;
+}
+#home img
+{
+  width: 100%;
+}
+@media screen and (max-width:450px)
+{
+  #home
+  {
+    margin-top:4em;
+    height:320px;
+  }
+  .title
+{
+    font-size:2rem;
+       margin-left: 3rem;
+}
+}
+a:hover{
+    text-decoration: none;
+    font-weight: 1000;
+}
+.container-fluid
+{
+    margin:0px;
+    padding:0px;
+}
+.stick
+{
+   display: none;
+  position: fixed;
+ bottom:20px;
+ right:30px; 
+ z-index: 99;
+}
+.stick a
+{
+  color:inherit;
+}
+.stick a:hover
+{
+  color: inherit;
+}
+.stick button.btn
+{
+    padding:8px 40px;
+    border-radius: 20px;
+   font-family: Caudex;
+   border-width: 3px;
+   /* -webkit-animation: glowing 1500ms infinite;
+   -moz-animation: glowing 1500ms infinite;
+   -o-animation: glowing 1500ms infinite; */
+   animation: glowing 1500ms infinite;
+}
+.btn-primary:hover
+{   animation-play-state: paused !important;
+    color: #01CBC6;
+    background-color: wheat;
+    border:#01CBC6 solid 3px;
+}
+@-webkit-keyframes glowing {
+    0% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+    50% { background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 0 40px rgb(255, 255, 255); color:#01CBC6; }
+    100% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+  }
+  
+  @-moz-keyframes glowing {
+    0% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+    50% { background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 0 40px rgb(255, 255, 255); color:#01CBC6; }
+    100% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+  }
+  
+  @-o-keyframes glowing {
+    0% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+    50% { background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 0 40px rgb(255, 255, 255); color:#01CBC6; }
+    100% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+  }
+  
+  @keyframes glowing {
+    0% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+    50% { background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 0 40px rgb(255, 255, 255); color:#01CBC6; }
+    100% { background-color: #01CBC6; -webkit-box-shadow: 0 0 3px #01CBC6; color:white; }
+  }
+
+  #backdrop
+  {
+      background:url(../images/logo-2.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+#aboutus
+{
+    margin-top:40px;
+   
+}
+h1,h3,h5,h4,h2
+{   
+    text-decoration: underline;
+    font-family: Caudex;
+}
+h1
+{
+    margin-bottom:30px;
+}
+.about h4
+{
+    font-family: Amaranth;
+    text-align: justify;
+}
+.about p
+{
+    text-align: justify;
+}
+p,li
+{
+    font-family: Amaranth;
+    
+}
+#perks
+{
+    margin:20px auto;
+}
+
+#perks .row,#responsibilities .row
+{
+  display: flex;
+justify-content: center;
+}
+
+#perks .cards
+{
+   width:95%;
+    border:#01CBC6 solid 2px;
+    padding-top:30px;
+    margin:10px;
+    box-shadow: 5px 5px #00CCCD;
+}
+#perks .cards:hover
+{
+transform: translateY(3px);
+box-shadow: 1px 1px #00CCCD;
+}
+
+#responsibilities .cards
+{
+    width:92%;
+    border:#01CBC6 solid 2px;
+    padding-top:40px;
+    margin:15px;
+    box-shadow: 5px 5px #00CCCD;
+    font-family: Amaranth;
+
+}
+#responsibilities .cards:hover
+{
+    transform: translateY(3px);
+box-shadow: 1px 1px #00CCCD;
+}
+
+li
+{
+    list-style-type: none;
+   
+}
+
+.fa
+{
+    color: white;
+    font-size: 2rem;
+}
+#faqs ol.carousel-indicators
+{
+ position: relative;
+ top:12em;
+}
+#footer
+{
+    height:auto;
+}
+#footer .container-fluid
+{
+    margin-top:30px;
+    padding:40px;
+    padding-bottom: 0;
+    color:white;
+}
+#footer p
+{
+    margin:0px;
+}
+#footer h5
+{
+    color:white;
+    text-decoration: none;
+}
+#footer a
+{
+    color:white;
+}
+#footer a:hover
+{
+    color:wheat;
+    font-weight: normal;
+}
+.cpright
+{
+    font-family: caudex;
+    text-decoration: underline !important;
+    color:black !important;
+}
+@media screen and (max-width:500px)
+{
+    #perks .row,#responsibilities .row
+    {
+        display: block;
+    }
+    #responsibilities .cards,#perks .cards
+    {
+        box-shadow: 1px 1px #00CCCD;
+    }
+    #faqs ol.carousel-indicators
+{
+ position: relative;
+ top:16em;
+}
+}

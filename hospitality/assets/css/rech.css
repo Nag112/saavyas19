@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Play");
+@import url("https://fonts.googleapis.com/css?family=Prosto One");
+@import url("https://fonts.googleapis.com/css?family=Ravi Prakash");
+@import url("https://fonts.googleapis.com/css?family=Caudex");
+html,body
+{ margin:0px;
+overflow-x: hidden;
+height:100%;
+}
+#particles-js{ position:fixed; width: 105%;  height: 110%;background-color: #000000; background-image: url(""); background-repeat: no-repeat;  background-position: 50% 50%; z-index: -2000;} 
+
+
+.log{
+    position: fixed;
+    top:5%;
+    left:95%;
+    color:white;
+    text-decoration: none;
+    z-index: 150;
+}
+#reach,#other
+{  
+     width:80%;
+    top:3px;
+    position: relative;
+    margin:auto; 
+}
+p
+{
+    color:white !important;
+    font-size: 1.2em;
+    font-family:Play;
+    text-align: justify;
+}
+#other p{
+    text-align: center;   
+}
+h3,h4
+{
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'Prosto One';
+    text-shadow: 1px 1px rgb(218, 164, 164);
+    color:white;
+}
+h4 u
+{
+    font-family: 'Ravi Prakash' !important;
+    font-size:1.8em;
+}
+.cpright
+{
+    text-align: center;
+    color:violet;
+    font-family: 'Caudex' ;
+    clear:both;
+    position: relative;
+    top:0.5em;
+}
+.box
+{
+    margin: 2em auto;
+}
+a{
+    text-decoration: none;
+    color:violet;
+}
+@media only screen and (max-width: 452px) 
+{
+    .log
+    {
+        left:90%;
+    }
+    p
+    {
+        font-size:0.8em;
+    }
+    h3 
+    {
+        font-size:1.1em
+    }
+    h3 u
+    {
+        font-size:1.4em;
+    }
+
+}
